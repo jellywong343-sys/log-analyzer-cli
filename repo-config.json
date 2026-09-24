@@ -1,0 +1,11 @@
+{
+  "name": "log-analyzer-cli",
+  "description": "Analyze log levels, HTTP status codes, timestamps, and recurring messages from text log files.",
+  "topics": [
+    "python",
+    "logs",
+    "cli",
+    "monitoring",
+    "developer-tools"
+  ]
+}

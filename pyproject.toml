@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-analyzer-cli"
+version = "1.0.0"
+description = "Analyze log levels, HTTP status codes, timestamps, and recurring messages from text log files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jellywong343-sys" }]
+dependencies = []
+keywords = ["python","logs","cli","monitoring","developer-tools"]
+
+[project.scripts]
+log-analyze = "log_analyzer_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
